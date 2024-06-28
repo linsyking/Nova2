@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using Godot;
-using Nova.Parser;
 using Nova.Exceptions;
+using Nova.Parser;
 
 namespace Nova;
 using ParsedChunks = IReadOnlyList<IReadOnlyList<ParsedBlock>>;
